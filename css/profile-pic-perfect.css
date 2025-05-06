@@ -1,0 +1,39 @@
+/* Perfect Profile Picture Styling */
+
+/* Container for social icons */
+.vtsocials {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+/* Profile picture container */
+#vticon {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(100, 200, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+}
+
+#vticon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(100, 200, 255, 0.8);
+  border-color: rgba(100, 200, 255, 0.6);
+  transition: all 0.3s ease;
+}
+
+/* Profile picture image */
+#vticon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
